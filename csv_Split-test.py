@@ -34,6 +34,6 @@ def splitByLineCount(filename, count):
 
 if __name__ == '__main__':
     begin = time.time()
-    splitByLineCount('training-inspur.csv', 1000)#每个小的csv文件存放1000条
+    splitByLineCount('training-inspur.csv', 10000)#每个小的csv文件存放10000条，数量可根据需求更改
     end = time.time()
     print('time is %d seconds ' % (end - begin))
